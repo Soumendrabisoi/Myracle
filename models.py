@@ -8,4 +8,4 @@ model = BlipForConditionalGeneration.from_pretrained(BLIP_MODEL_NAME)
 model.eval()
 
 # Configure Google Generative AI
-genai.configure(api_key=API_KEY)
+genai.configure(api_key=GOOGLE_GENAI_API_KEY)
